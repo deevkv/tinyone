@@ -82,6 +82,30 @@ nav > img:nth-child(3) {
 	padding-top: 12px;
 }
 
+.topcocial {
+	float: right;
+	margin-top: 69px;
+	font-family: FontAwesome;
+	font-size: 22px; /* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 32px; /* Approximation due to font substitution */
+	text-align: center;
+}
+
+.topcocial > ul > li {
+	display: inline-block;
+	padding: 0px 6px;
+	
+}
+
+.topcocial > ul > li > a {
+	color: #222222;
+}
+
+.topcocial > ul > li > a:hover {
+	color: #fff;
+	transition: 0.5s;
+}
 .header{
 	height: 859px;
 	background-color: #fcdb00;
@@ -422,7 +446,7 @@ div.wr-pricing > div:nth-child(3) > p:nth-child(6){
 
 }
 .wr-ourworks a {
-	display: block;
+	display: inline-block;
 	text-align: center;
 	text-decoration: none;
 	padding-bottom: 65px; 
@@ -446,7 +470,7 @@ div.wr-pricing > div:nth-child(3) > p:nth-child(6){
 }
 
 .ourteam {
-	height: 600px;
+	height: 630px;
 }
 
 .wr-ourteam {
@@ -483,13 +507,23 @@ div.wr-pricing > div:nth-child(3) > p:nth-child(6){
 	line-height: 18px;
 	text-align: center;
 	margin-top: 10px;
+	margin-bottom: 10px;
 	width: 170px;
+
 }
 
 .wr-ourteam a {
 	text-decoration: none;
+	padding: 0px 4px;
+	color: #010101;
 }
 
+.wr-ourteam a:hover {
+	text-decoration: none;
+	padding: 0px 4px;
+	color: #fcdb00;
+	transition: 0.5s;
+}
 .stats_testimonial {
 	height: 870px;
 }
@@ -690,7 +724,8 @@ textarea {
 	font-size: 16px;
 	width: 478px;
 	height: 53px;
-	padding-left: 18px;	
+	padding-left: 18px;
+	outline: none;	
 }
 
 textarea { 
@@ -714,15 +749,20 @@ textarea {
 	margin-top: 25px;
 	color:  #ffffff;
 	font-size: 16px;
-
+	border:none;
+	outline: none;
 }
 
+.send-button:hover {
+	background: #fcdb00;
+	color: #010101;
+	transition: all 0.4s;
+}
 
 footer {
 	background-color: #010101;
 	height: 772px;
 	padding-top: 96px;
-
 }
 
 footer h2, p{
@@ -767,6 +807,7 @@ footer p {
 	font-weight: 400;
 	line-height: 20px;
 	text-align: left;
+	outline: none;
 }
 
 .send-button-submit {
@@ -782,7 +823,14 @@ footer p {
 	text-align: center;
 	border: none;
 	text-transform: uppercase;
+	border:none;
+	outline: none;
+}
 
+.send-button-submit:hover {
+	background: #fcdb00;
+    color: #010101;
+    transition: 0.4s;
 }
 
 .footer-nav {
@@ -798,7 +846,6 @@ footer p {
 	display: flex;
 	justify-content: center;
 	justify-content: space-between;
-
 }
 
 .footer-nav > div {
@@ -815,4 +862,8 @@ footer p {
 	line-height: 20px;
 	text-align: left;
 	text-decoration: none;
+}
+
+.footer-nav > ul > li > a:hover {
+	color: #fcdb00;
 }
