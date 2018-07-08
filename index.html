@@ -12,7 +12,7 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="post">
-				<nav>
+				<nav class="postmenu">
 					<img src="img/menu-icon.png" alt="Menu">
 					<img src="img/logo.png" alt="Logo">
 					<div class="topcocial">
@@ -350,7 +350,11 @@ jQuery(document).ready(function() {
 	jQuery('.post').addClass("hidden").viewportChecker({
 	    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
 	    offset: 100    
-	   });   
+	   }); 
+	jQuery('.postmenu').addClass("hidden").viewportChecker({
+	    classToAdd: 'visible animated bounceInDown', // Class to add to the elements when they are visible
+	    offset: 100    
+	   });  
 }); 
 </script>        
 </body>
