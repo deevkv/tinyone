@@ -189,7 +189,7 @@ header  p {
 	margin-top: 22px;
 }
 
-header > img {
+header > div > img {
 	margin-top: 181px;
 }
 
@@ -202,13 +202,10 @@ header > img {
 .features {
 	width: 100%;
 	height: 700px;
-
 }
 
 .pricing {
-	height: 784px;
-	height: 785px;
-
+	height: 735px;
 }
 
 .ourworks {
@@ -216,7 +213,7 @@ header > img {
 
 }
 
-article > div > h2{
+article > div > div > h2{
 	font-family: 'Source Sans Pro';
 	color:  #010101;
 	font-size: 32px;
@@ -225,7 +222,7 @@ article > div > h2{
 	text-align: center;
 }
 
-article > div > p {
+article > div > div > p {
 	font-family: 'Source Sans Pro';
 	color:  #898989;
 	font-size: 20px;
@@ -360,8 +357,7 @@ div.wr-pricing > div:nth-child(3) > div:nth-child(5) {
 	height: 2px;
 	margin: 0 auto;
 }
-
-body > div > article.pricing > div.wr-pricing > div > span {
+body > div > article> div > div.wr-pricing > div > span {
 	font-family: 'Source Sans Pro';
 	color: #010101;
 	font-size: 32px;
@@ -865,4 +861,11 @@ footer p {
 
 .footer-nav > ul > li > a:hover {
 	color: #fcdb00;
+}
+
+.hidden{
+opacity:0;
+}
+.visible{
+opacity:1;
 }
