@@ -64,6 +64,7 @@ body {
 nav {
 	width: 933px;
 	margin: auto;
+	
 }
 
 nav > img {
@@ -189,7 +190,7 @@ header  p {
 	margin-top: 22px;
 }
 
-header > div > img {
+header > img {
 	margin-top: 181px;
 }
 
@@ -213,7 +214,7 @@ header > div > img {
 
 }
 
-article > div > div > h2{
+article > div > h2{
 	font-family: 'Source Sans Pro';
 	color:  #010101;
 	font-size: 32px;
@@ -222,7 +223,7 @@ article > div > div > h2{
 	text-align: center;
 }
 
-article > div > div > p {
+article > div > p {
 	font-family: 'Source Sans Pro';
 	color:  #898989;
 	font-size: 20px;
@@ -298,18 +299,10 @@ div.wr-features > div > img {
 	width: 100px;
 	height: 100px;
 	margin: 0 auto;
+	font-size: 48px;
+	line-height: 100px;
 	   
 }
-
-.circle-1 {
-	border-radius: 50%;
-	background-color:  #010101;
-	width: 100px;
-	height: 100px;
-	margin: 0 auto;
-	
-}
-
 
 div.wr-pricing > div:nth-child(1) > div.circle-0 > img,
 div.wr-pricing > div:nth-child(2) > div.circle-1 > img, 
@@ -321,6 +314,12 @@ div.wr-pricing > div:nth-child(3) > div.circle-0 > img {
 	display: flex;
 	justify-content: center;
 }
+
+.block-1:hover .circle-0{
+	background-color: #010101;
+	color: #fff;
+}
+
 
 .block-pricing {
 	width: 263px;
@@ -357,7 +356,8 @@ div.wr-pricing > div:nth-child(3) > div:nth-child(5) {
 	height: 2px;
 	margin: 0 auto;
 }
-body > div > article> div > div.wr-pricing > div > span {
+
+div.wr-pricing > div > span {
 	font-family: 'Source Sans Pro';
 	color: #010101;
 	font-size: 32px;
@@ -465,6 +465,70 @@ div.wr-pricing > div:nth-child(3) > p:nth-child(6){
 	line-height: 32px;
 }
 
+.wr-work {
+	position: relative;
+}
+
+.info-work {
+	position: absolute;
+	left: 10px;
+    right: 10px;
+    bottom: 10px;
+    font-family: 'Source Sans Pro';
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: left;
+}
+
+div.info-work > div.half-left > i,
+div.info-work > div.half-right > i{
+	color:  #ffffff;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+div.info-work > div.half-left > div {
+	font-family: 'Source Sans Pro';
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	float: right;
+	margin-left: 4px;
+}
+
+div.info-work > div.half-right > div {
+	font-family: 'Source Sans Pro';
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	float: left;
+	margin-right: 4px;
+}
+
+.half-left {
+    float: left;
+    font-size: 14px;
+    color: #fff;
+}
+
+.half-right {
+    float: right;
+    font-size: 14px;
+    color: #fff;
+}
+
+/*.img-plus {
+	position: absolute;
+	color:  #ffffff;
+	font-size: 50px;
+	text-align: center;
+	width: 100%;
+    height: auto;
+}
+*/
 .ourteam {
 	height: 630px;
 }
