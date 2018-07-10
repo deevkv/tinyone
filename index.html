@@ -7,12 +7,34 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style/animate.css">
+	<link rel="stylesheet" href="style/menu.css">
 </head>
 <body>
+	   <div class="menu">
+      
+      <!-- Иконка меню -->
+      <div class="icon-close">
+        <img src="img/menu/close-btn.png">
+      </div>
+
+      <!-- Меню -->
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#">Works</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Testimonial</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
 	<div class="wrapper">
-		<header class="post header">
+   
+    
+		<header class="header">
+			<div class="post">
 				<nav class="postmenu">
-					<img src="img/menu-icon.png" alt="Menu">
+					<img class="icon-menu" src="img/menu-icon.png" alt="Menu">
 					<img src="img/logo.png" alt="Logo">
 					<div class="topcocial">
 						<ul>
@@ -30,6 +52,7 @@
 				<a href="#" class="butt">get start</a>
 				</div>
 				<img src=img/pointer.png alt="Pointer down">
+			</div>
 		</header>
 		<article class="post features">
 				<div class="wr-text-features">
@@ -69,7 +92,7 @@
 				</div>
 				</div>
 		</article>
-		<article class="post pricing">
+		<article id="pricing" class="post pricing">
 				<div>
 					<h2>Pricing And Free Trial</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
@@ -322,7 +345,7 @@
 				</div>
 					<form class='form-submit'' action="#">
 						<input type='email' pattern='' placeholder='Enter your email to update' required type='email'>
-						<input name="" class="send-button-submit" type="submit">
+						<input name="" class="send-button-submit" type="text" value="submit">
 					</form>
 				<div class="footer-nav">
 					<div>
@@ -370,6 +393,7 @@ jQuery(document).ready(function() {
 	    offset: 100    
 	   });  
 }); 
-</script>        
+</script>
+<script src="js/menu.js"></script>        
 </body>
 </html>

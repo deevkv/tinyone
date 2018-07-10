@@ -190,8 +190,9 @@ header  p {
 	margin-top: 22px;
 }
 
-header > img {
-	margin-top: 181px;
+header > div > img {
+	position: absolute;
+	top: 800px;
 }
 
 
@@ -317,9 +318,9 @@ div.wr-pricing > div:nth-child(3) > div.circle-0 > img {
 
 .block-1:hover .circle-0{
 	background-color: #010101;
+	transition: 0.5s;
 	color: #fff;
 }
-
 
 .block-pricing {
 	width: 263px;
@@ -785,6 +786,7 @@ textarea {
 	height: 53px;
 	padding-left: 18px;
 	outline: none;	
+	color: #000;
 }
 
 textarea { 
@@ -793,6 +795,14 @@ textarea {
 	margin-top: 22px;
 	padding-top: 21px;
 }
+
+textarea:active, textarea:focus {
+  outline: none !important;
+}
+textarea::-moz-focus-inner {
+  border: 0 !important;
+}
+
 
 .send-button {
 	border-width: 1px;
@@ -857,7 +867,7 @@ footer p {
 .form-submit > input:first-child {
 	background-color: #ffffff;
 	width: 597px;
-	height: 45px;
+	height: 51px;
 	font-size: 16px;
 	padding-left:18px;
 	font-family: 'Source Sans Pro';
@@ -867,6 +877,7 @@ footer p {
 	line-height: 20px;
 	text-align: left;
 	outline: none;
+	border: 0;
 }
 
 .send-button-submit {
