@@ -13,24 +13,22 @@
 	   <div class="menu">
       
       <!-- Иконка меню -->
-      <div class="icon-close">
+      <div  class="icon-close">
         <img src="img/menu/close-btn.png">
       </div>
 
       <!-- Меню -->
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#">Works</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Testimonial</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="li-menu-link"><a class="menu-link" href="#home">Home</a></li>
+        <li class="li-menu-link"><a class="menu-link" href="#features">Features</a></li>
+        <li class="li-menu-link"><a class="menu-link" href="#pricing">Pricing</a></li>
+        <li class="li-menu-link"><a  class="menu-link" href="#works">Works</a></li>
+        <li class="li-menu-link"><a class="menu-link" href="#team">Team</a></li>
+        <li class="li-menu-link"><a class="menu-link" href="#testimonial">Testimonial</a></li>
+        <li class="li-menu-link"><a class="menu-link" href="#contact">Contact</a></li>
       </ul>
     </div>
-	<div class="wrapper">
-   
-    
+	<div id="home" class="wrapper">
 		<header class="header">
 			<div class="post">
 				<nav class="postmenu">
@@ -54,7 +52,7 @@
 				<img src=img/pointer.png alt="Pointer down">
 			</div>
 		</header>
-		<article class="post features">
+		<article id="features" class="post features">
 				<div class="wr-text-features">
 					<h2>Tinyone features</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
@@ -142,7 +140,7 @@
 					</div>
 				</div>
 		</article>
-		<article class="post ourworks">
+		<article id="works" class="post ourworks">
 			<div>
 				<h2>Our works</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
@@ -219,7 +217,7 @@
 					</a>
 				</div>
 		</article>
-		<article class="post ourteam">
+		<article id="team" class="post ourteam">
 				<div>
 					<h2>Our team</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
@@ -263,7 +261,7 @@
 					</span>
 				</div>	
 		</article>
-		<article class="post stats_testimonial">
+		<article id="testimonial" class="post stats_testimonial">
 				<div>
 					<h2>Stats & Testimonial</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
@@ -309,7 +307,7 @@
 				</div>
 				</div>
 		</article>
-		<article class="post form">
+		<article id="contact" class="post form">
 					<h2>Keep in touch with us</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
 					<div class="wr-form">
@@ -382,18 +380,8 @@
 	</div> <!-- wrapper -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/jquery.viewportchecker.min.js"></script> 
-<script type="text/javascript">
-jQuery(document).ready(function() {
-	jQuery('.post').addClass("hidden").viewportChecker({
-	    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
-	    offset: 100    
-	   }); 
-	jQuery('.postmenu').addClass("hidden").viewportChecker({
-	    classToAdd: 'visible animated bounceInDown', // Class to add to the elements when they are visible
-	    offset: 100    
-	   });  
-}); 
-</script>
-<script src="js/menu.js"></script>        
+<script src="js/animation.js"></script>
+<script src="js/menu.js"></script> 
+<script src="js/scroll.js"></script>       
 </body>
 </html>

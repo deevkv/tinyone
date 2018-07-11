@@ -15,6 +15,8 @@ body {
   height: 100%;
   position: fixed;
   width: 200px;
+  z-index: 1;
+  text-align: center;
 }
 
 .menu ul {
@@ -22,6 +24,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+
 }
 
 .menu li {
@@ -29,14 +32,26 @@ body {
   font-family: 'Open Sans', sans-serif;
   line-height: 45px;
   padding-bottom: 3px;
-  padding-left: 20px;
   padding-top: 3px;
 }
 
-.menu li:hover  {
+/*.menu li:hover .menu-link {
   cursor: pointer;
   background-color: #fcdb00;
 
+}*/
+
+.li-menu-link:hover .menu-link{
+  cursor: pointer;
+  background-color: #fcdb00;
+  color: #000;
+}
+.li-menu-link:hover {
+  background-color: #fcdb00;
+}
+
+.menu-link {
+  display: block;
 }
 
 .menu a {
@@ -44,12 +59,18 @@ body {
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
+/*.menu a:hover {
+  color: #000;
+}*/
 
 .icon-close {
   cursor: pointer;
-  padding-left: 10px;
-  padding-top: 63px;
+  padding-top: 62px;
   padding-bottom: 6px;
 }
 

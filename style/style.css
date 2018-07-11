@@ -58,6 +58,7 @@ body {
 }
 .wrapper {
 	width: 100%;
+	height: 100%;
 	margin: 0 auto;
 }
 
@@ -203,15 +204,18 @@ header > div > img {
 
 .features {
 	width: 100%;
-	height: 700px;
+	height: 750px;
+	padding-top: 116px;
 }
 
 .pricing {
 	height: 735px;
+	padding-top: 70px;
 }
 
 .ourworks {
-	height: 1080px;
+	height: 1010px;
+	padding-top: 70px;
 
 }
 
@@ -235,10 +239,6 @@ article > div > p {
 	margin: 0 auto;
 	margin-bottom: 77px;
 	margin-top: 17px;
-}
-
-div.wr-text-features > h2 {
-	margin-top: 116px;
 }
 
 div.wr-text-features > p {
@@ -532,6 +532,7 @@ div.info-work > div.half-right > div {
 */
 .ourteam {
 	height: 630px;
+	padding-top: 70px;
 }
 
 .wr-ourteam {
@@ -585,7 +586,8 @@ div.info-work > div.half-right > div {
 	transition: 0.5s;
 }
 .stats_testimonial {
-	height: 870px;
+	height: 800px;
+	padding-top: 70px;
 }
 
 .wr-stats_testimonial {
@@ -694,6 +696,7 @@ div.st_testimonial > img {
 
 .form {
 	height: 800px;
+	padding-top: 70px;
 }
 
 .form h2 {
