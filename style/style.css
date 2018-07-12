@@ -481,6 +481,7 @@ div.wr-pricing > div:nth-child(3) > p:nth-child(6){
 	font-weight: 400;
 	line-height: 18px;
 	text-align: left;
+	z-index:1;
 }
 
 div.info-work > div.half-left > i,
@@ -521,15 +522,25 @@ div.info-work > div.half-right > div {
     color: #fff;
 }
 
-/*.img-plus {
+.img-plus {
 	position: absolute;
+	top: 0px;
+  	bottom: 0px;
+  	left: 0px;
+  	right: 0px;
 	color:  #ffffff;
 	font-size: 50px;
-	text-align: center;
-	width: 100%;
-    height: auto;
+	padding-top: 80px;
+	background: #000;
+	opacity: 0;
+	height: 140px;
 }
-*/
+
+.li-wr-work:hover .img-plus {
+	opacity: 0.8;
+	transition: 0.4s;
+}
+
 .ourteam {
 	height: 630px;
 	padding-top: 70px;

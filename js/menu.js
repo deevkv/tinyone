@@ -13,7 +13,7 @@ var main = function() {
 
     $('.icon-close').click(function() { 
         $('.menu').animate({ 
-            left: '-200px' 
+            left: '-238px' 
         }, 200); 
         
     $('body').animate({ 

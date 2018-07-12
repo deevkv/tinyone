@@ -11,10 +11,10 @@ body {
 
 .menu {
   background: #222222;
-  left: -200px;
+  left: -238px;
   height: 100%;
   position: fixed;
-  width: 200px;
+  width: 238px;
   z-index: 1;
   text-align: center;
 }
