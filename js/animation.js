@@ -3,7 +3,7 @@ jQuery(document).ready(function() {
 	    classToAdd: 'visible animated fadeIn',
 	    offset: 100    
 	   }); 
-	jQuery('.postmenu').addClass("hidden").viewportChecker({
+	jQuery('.animate-header').addClass("hidden").viewportChecker({
 	    classToAdd: 'visible animated bounceInDown',
 	    offset: 100    
 	   });  

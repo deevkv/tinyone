@@ -62,42 +62,57 @@ body {
 	margin: 0 auto;
 }
 
-nav {
-	width: 933px;
-	margin: auto;
-	
-}
-
-nav > img {
-	margin-top: 60px;
-	text-align: center;
-}
-
-nav > img:nth-child(1) {
-	float: left;
-	padding-right: 106px;
-	padding-top: 17px;
-}
-
-nav > img:nth-child(3) {
-	float: right;
+#home > nav > div > img:nth-child(2) {
 	padding-top: 12px;
+	text-align: center;
+	padding-left: 100px;
+}
+
+#home > nav > div > img.icon-menu {
+	float: left;
+	padding-left: 106px;
+	padding-right: 100px;
+}
+
+#home > nav > div > ul{
+	float: right;
+}
+
+
+.postmenu {
+	padding-top: 58px;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	z-index: 1;
+	background-color: #fcdb00;
+	transition: all 0.4s ease;
+}
+
+
+.sticky {
+	padding-top: 2px;
+	background-color: #fcdb00;
+	transition: all 0.4s ease;
+	box-shadow: 0px 2px 0.99px 0.01px rgba(0, 0, 0, 0.05);
 }
 
 .topcocial {
+	width: 200px;
 	float: right;
-	margin-top: 69px;
+	margin-top: 20px;
+	margin-right: 140px;
 	font-family: FontAwesome;
-	font-size: 22px; /* Approximation due to font substitution */
+	font-size: 22px; 
 	font-weight: 400;
-	line-height: 32px; /* Approximation due to font substitution */
+	line-height: 32px; 
 	text-align: center;
 }
 
 .topcocial > ul > li {
 	display: inline-block;
 	padding: 0px 6px;
-	
+
 }
 
 .topcocial > ul > li > a {
@@ -109,7 +124,7 @@ nav > img:nth-child(3) {
 	transition: 0.5s;
 }
 .header{
-	height: 859px;
+	height: 587px;
 	background-color: #fcdb00;
 	text-align: center;	
 }
@@ -183,17 +198,18 @@ p {
 	left: 0;
 }
 
-header  h1 {
-	margin-top: 258px;
+.header {
+	padding-top: 400px;
 }
 
-header  p {
+
+.header  p {
 	margin-top: 22px;
 }
 
-header > div > img {
+.header > div > img {
 	position: absolute;
-	top: 800px;
+	top: 890px;
 }
 
 
@@ -205,17 +221,17 @@ header > div > img {
 .features {
 	width: 100%;
 	height: 750px;
-	padding-top: 116px;
+	padding-top: 215px;
 }
 
 .pricing {
 	height: 735px;
-	padding-top: 70px;
+	padding-top: 160px;
 }
 
 .ourworks {
 	height: 1010px;
-	padding-top: 70px;
+	padding-top: 100px;
 
 }
 
@@ -543,7 +559,7 @@ div.info-work > div.half-right > div {
 
 .ourteam {
 	height: 630px;
-	padding-top: 70px;
+	padding-top: 190px;
 }
 
 .wr-ourteam {
@@ -598,7 +614,7 @@ div.info-work > div.half-right > div {
 }
 .stats_testimonial {
 	height: 800px;
-	padding-top: 70px;
+	padding-top: 170px;
 }
 
 .wr-stats_testimonial {
@@ -707,7 +723,7 @@ div.st_testimonial > img {
 
 .form {
 	height: 800px;
-	padding-top: 70px;
+	padding-top: 120px;
 }
 
 .form h2 {
@@ -844,8 +860,8 @@ textarea::-moz-focus-inner {
 
 footer {
 	background-color: #010101;
-	height: 772px;
-	padding-top: 96px;
+	height: 800px;
+	padding-top: 120px;
 }
 
 footer h2, p{
