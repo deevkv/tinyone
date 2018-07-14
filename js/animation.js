@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
 	    offset: 100    
 	   }); 
 	jQuery('.animate-header').addClass("hidden").viewportChecker({
-	    classToAdd: 'visible animated bounceInDown',
+	    classToAdd: 'visible animated flipInX',
 	    offset: 100    
 	   });  
 }); 
