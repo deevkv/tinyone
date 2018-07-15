@@ -31,8 +31,6 @@ body {
   border-bottom: 1px solid #555;
   font-family: 'Open Sans', sans-serif;
   line-height: 45px;
-  padding-bottom: 3px;
-  padding-top: 3px;
 }
 
 /*.menu li:hover .menu-link {
@@ -59,8 +57,6 @@ body {
   font-size: 15px;
   text-decoration: none;
   text-transform: uppercase;
-  padding-left: auto;
-  padding-right: auto;
   padding-bottom: 5px;
   padding-top: 5px;
 }
