@@ -206,8 +206,8 @@ p {
 }
 
 .header > div > img {
-	position: absolute;
-	top: 890px;
+	position: relative;
+	top: 200px;
 }
 
 
@@ -218,13 +218,13 @@ p {
 
 .features {
 	width: 100%;
-	height: 750px;
+	height: 700px;
 	padding-top: 215px;
 }
 
 .pricing {
-	height: 735px;
-	padding-top: 160px;
+	height: 760px;
+	padding-top: 130px;
 }
 
 .ourworks {
@@ -271,7 +271,6 @@ div.wr-text-features > p {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-
 }
 
 div.wr-features > div:nth-child(1),
@@ -315,8 +314,7 @@ div.wr-features > div > img {
 	height: 100px;
 	margin: 0 auto;
 	font-size: 48px;
-	line-height: 100px;
-	   
+	line-height: 100px;   
 }
 
 div.wr-pricing > div:nth-child(1) > div.circle-0 > img,
@@ -360,7 +358,6 @@ div.wr-pricing > div > p {
 	line-height: 24px;
 	width: 165px;
 	margin: 0 auto;
-
 }
 
 div.wr-pricing > div:nth-child(1) > div:nth-child(5), 
@@ -756,7 +753,6 @@ div.st_testimonial > img {
 	margin-left: 45px;
 	margin-right: 45px;
 	margin-top: 50px;
-
 }
 
 .form > div > div > p {
@@ -966,9 +962,11 @@ footer p {
 	color: #fcdb00;
 }
 
-.hidden{
+.hidden {
 opacity:0;
 }
-.visible{
+
+.visible {
 opacity:1;
 }
+

@@ -68,6 +68,13 @@ body {
   cursor: pointer;
   padding-top: 66px;
   padding-bottom: 6px;
+  transition: 0.5s;
+}
+
+.icon-close-scroll{
+  padding-top: 10px;
+  transition: 0.5s;
+
 }
 
 .icon-menu {
